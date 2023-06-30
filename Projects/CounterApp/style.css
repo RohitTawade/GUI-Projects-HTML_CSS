@@ -1,0 +1,54 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    justify-content: center; /* Center content horizontally */
+    align-items: center; /* Center content vertically */
+    min-height: 100vh; /* Set minimum height of the body to fill the viewport */
+}
+
+section {
+    width: 100vw;
+    display: flex;
+    flex-direction: column; /* Align items vertically */
+    align-items: center;
+    justify-content: center;
+
+    padding-bottom: 10px; /* Add padding at the bottom for reset button */
+}
+
+section .card {
+    width: 350px;
+    display: flex;
+    flex-direction: column;
+    
+    align-items: center;
+    justify-content: center;
+    border: 2px solid #949494;
+    border-radius: 10px;
+    padding-bottom: 10px; /* Add padding at the bottom for reset button */
+}
+
+section .card button {
+    /* Add margin at the bottom of the buttons */
+    margin: 5px;
+    font-weight: bold;
+}
+
+section .reset-button {
+    margin-top: 10px; /* Add margin at the top for the reset button */
+}
+
+.counter-controls {
+    display: flex;
+    align-items: center;
+}
+
+.counter-input {
+    display: flex;
+    align-items: center;
+}

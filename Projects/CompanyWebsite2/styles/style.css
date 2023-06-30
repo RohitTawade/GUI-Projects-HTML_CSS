@@ -1,0 +1,98 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+nav .header-section 
+{
+    display: flex;
+    background-color: #000000;
+    align-items: center;
+    padding: 1%;
+}
+nav .header-section img {
+    height: 32px;
+    width: 92px;
+}
+nav .header-section ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 31px 83px;
+    height: 50px;
+    gap: 30px;
+    list-style: none;
+    
+}
+nav .header-section ul li a {
+    text-decoration: none;
+    color: #fff;
+}
+nav .header-section ul li a:hover{
+    text-decoration: underline;
+}
+nav .header-section .buy-token {
+    color: #fff;
+    background-color: #ba0cc5;
+    border: none;
+    margin-left: 35%;
+    height: 40px;
+    width: 100px;
+    border-radius: 7px;
+}
+nav .header-section .buy-token:hover {
+    color: #ba0cc5;
+    cursor: pointer;
+    border: 1px solid #000000;
+    background-color: #fff;
+}
+main {
+    background-image: url("./bg.png");
+    background-size: cover;
+    background-attachment:fixed;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 91.5vh;
+    text-align: center;
+}
+main h1 {
+    text-align: center;
+   
+    color: #fff;
+    padding-top: 102px;
+    line-height: 78px;
+    font-weight: 700;
+    font-size: 70px;
+    font-style: normal;
+   max-width:700px;
+   margin-left: 25%;
+}
+main p {
+    color: #fff;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 25px;
+    line-height: 50px;
+    font-family: "Poppins";
+}
+main .request-early-access {
+    background: #ba0cc5;
+    border-radius: 11.2308px;
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 29.9487px;
+    line-height: 40px;
+    color: #ffffff;
+    border: none;
+    padding: 14px 22px;
+    margin-top: 40px;
+    cursor: pointer;
+}
+main .request-early-access:hover {
+    color: #ba0cc5;
+    background-color: #fff;
+    border: 1px solid #000000;
+}
